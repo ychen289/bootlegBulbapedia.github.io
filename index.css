@@ -1,0 +1,277 @@
+body {
+    background: #90ee90;
+    cursor: url("https://img.pokemondb.net/sprites/black-white/normal/gible-f.png"), pointer;
+
+}
+
+.TopBar {
+    display: flex;
+    background-color: #617B70;
+}
+
+.TopBarLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+}
+
+.TopBarRight {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+}
+
+.centerBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.LatestNews {
+    justify-content: center;
+    background-color: rgb(106, 226, 106);
+    align-items: center;
+    width: 800px;
+    height: 250px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MainContentBody {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 800px;
+    height: auto; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.PokemonLogo {
+    height: 150px;
+}
+
+.BulbapediaDropDown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.BulbDropDownContent {
+    display: none;
+    position: absolute;
+    background-color: white;
+  }
+
+.BulbapediaDropDown:hover 
+.BulbDropDownContent {
+    display: block;
+}
+
+.MoreDropDown {
+    position: relative;
+    display: inline-block;
+}
+
+.MoreDropDownContent {
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+
+.MoreDropDown:hover 
+.MoreDropDownContent {
+    display: block;
+}
+
+.gibleName {
+    justify-content: left;
+}
+
+.BeforeAfterPokemon {
+    display: flex;
+    background: #CBC3E3;
+    height: 75px;
+}
+
+.Left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    border: solid black 1px;
+}
+
+#spiritombPicture {
+    width: 50%;
+}
+
+.Right {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    border: solid black 1px;
+}
+
+#gabitePicture {
+    width: 50%;
+}
+
+.Middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: solid black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ContentsTable {
+    border: solid rgb(182, 182, 33) 1px;
+    border-radius: 2%;
+}
+
+.Biology {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.TableAndGible {
+    display: flex;
+    margin: 5px;
+    
+}
+
+.GibleTable {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: solid purple 1px;
+    align-items: center;
+}
+
+#giblePicture {
+    width: 98%;
+    height: auto;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.GibleTableTop {
+    display: flex;
+    width: 98%;
+    height: 10%;
+    gap: 2px;
+}
+
+.GibleTableLeftMiddle {
+    display: flex;
+    width: 100%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.GibleTableLeft {
+    font-size: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.GibleTableMiddle {
+    font-size: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+    height: 100%;
+    width: 50%;
+}
+
+.GibleTable {
+    display: flex;
+    flex-direction: column;
+    background: rgb(223, 88, 223);
+    gap: 5px;
+    align-items: center;
+}
+
+.GibleTableRight {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 10%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.Type {
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.EVYield {
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.miniStat {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 100%;
+    border-radius: 10%;
+}
+
+.Stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+#HP {
+    background-color: #FF8776;
+}
+
+#Attack {
+    background-color: #FFB092;
+}
+
+#Def {
+    background-color: #FFE08E;
+}
+
+#SpAttack {
+    background-color:  #80E2FF;
+}
+
+#SpDef {
+    background-color: #A9E792;
+}
+
+#Speed {
+    background-color: #FDA5C8;
+}
+
